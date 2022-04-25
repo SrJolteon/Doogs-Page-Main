@@ -1,0 +1,54 @@
+*  {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    background-color: orange;
+}
+
+.Bio {
+    text-align: end;
+}
+
+.article {
+    justify-content: end;
+}
+.container{
+    display: grid;
+    grid-template-columns: 150px;
+    gap: 10px;
+    justify-content: end;
+
+}
+
+.container > div {
+    background-color: darkgray;
+    padding: 10px;
+    border: 1px solid black;
+    
+}
+
+.grid {
+    
+    display: grid;
+    grid-template-columns: 150px;
+    gap: 10px;
+    justify-content: end;
+}
+
+.grid > div {
+    background-color: darkgray;
+    padding: 10px;
+    border: 1px solid black;
+
+}
+
+.center {
+    width: 200px;
+    height: 200px;
+    justify-content: center;
+}
